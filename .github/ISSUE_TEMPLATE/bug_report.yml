@@ -1,0 +1,17 @@
+name: Bug report
+description: Report a reproducible problem in the original app.
+title: "[Bug]: "
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device and Android version
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: Steps, expected result and actual result
+      description: Include exact calculation inputs where relevant. Remove personal details from screenshots.
+    validations:
+      required: true

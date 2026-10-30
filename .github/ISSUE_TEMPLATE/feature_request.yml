@@ -1,0 +1,10 @@
+name: Feature or usability suggestion
+description: Suggest an improvement or share feedback.
+title: "[Idea]: "
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you improve, and why?
+    validations:
+      required: true
